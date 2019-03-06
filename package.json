@@ -1,0 +1,50 @@
+{
+  "name": "react-redux-filter-grid",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.1.5",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.0",
+    "redux-thunk": "^2.3.0",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "tslint src/**/*.ts{,x} --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.2",
+    "redux-devtools": "^3.5.0",
+    "tslint": "^5.13.1",
+    "typescript": "^3.3.3333"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrc7505/React-redux-filter-grid.git"
+  },
+  "author": "Hardik Chaudhari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrc7505/React-redux-filter-grid/issues"
+  },
+  "homepage": "https://github.com/hrc7505/React-redux-filter-grid#readme"
+}
