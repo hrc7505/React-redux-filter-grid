@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+* {
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+/* Flexbox classes */
+
+.flex {
+    display: flex;
+    &.vCenter {
+        align-items: center;
+    }
+    &.hCenter {
+        justify-content: center;
+    }
+    &.hSpaceBetween {
+        justify-content: space-between;
+    }
+    &.hSpaceAround {
+        justify-content: space-around;
+    }
+    &.wrap {
+        flex-wrap: wrap;
+    }
+    &.dirCol {
+        flex-direction: column;
+    }
+}
