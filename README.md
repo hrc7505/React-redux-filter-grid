@@ -40,8 +40,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `npm run lint`
 
-Checks for linting issues and generates errors according to rules define in `tslint.json` file.<br>
-It automatically fixes the possible linting issues and the remaining issues needs to fix manually.
+Checks for linting issues and generates errors according to rules define in `tslint.json` file. It automatically fixes the possible linting issues and the remaining issues needs to fix manually.
 
 ## Learn More
 
