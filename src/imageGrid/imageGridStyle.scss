@@ -1,0 +1,15 @@
+.imageGrid {
+    max-width: 1632px;
+    .imageTile {
+        max-width: 400px;
+        width: 300px;
+        padding: 10px;
+        box-shadow: 0 0 20px 0px #694848;
+        margin: 10px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
