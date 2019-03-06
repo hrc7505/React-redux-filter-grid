@@ -1,15 +1,16 @@
 import * as React from "react";
 
-import "./app.scss";
 import HeaderComponent from "./header/headerComponent";
-import ImageGridComponent from "./imageGrid/imageGridComponent";
+import ImageListFilterComponent from "./imageListFilter/imageListFilterComponent";
+
+import "./app.scss";
 
 class App extends React.Component {
   public render(): JSX.Element {
     return (
       <div className="">
         <HeaderComponent />
-        <ImageGridComponent />
+        <ImageListFilterComponent />
       </div>
     );
   }

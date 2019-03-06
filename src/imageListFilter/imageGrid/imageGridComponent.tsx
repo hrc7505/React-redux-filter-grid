@@ -15,16 +15,14 @@ export default class ImageGridComponent extends React.PureComponent {
         ];
 
         return (
-            <div className="flex hCenter">
-                <div className="imageGrid flex hSpaceAround wrap">
-                    {
-                        images.map((imagePath: string, i: number) => (
-                            <div key={i} className="imageTile">
-                                <img src={imagePath} />
-                            </div>
-                        ))
-                    }
-                </div>
+            <div className="imageGrid flex hSpaceAround wrap">
+                {
+                    images.map((imagePath: string, i: number) => (
+                        <div key={i} className="imageTile">
+                            <img src={imagePath} />
+                        </div>
+                    ))
+                }
             </div>
         );
     }
