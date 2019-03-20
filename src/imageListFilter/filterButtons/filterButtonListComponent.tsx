@@ -1,17 +1,15 @@
 import * as React from "react";
 
+import IFilterButtonListProps from "./interfaces/IFilterButtonListProps";
+
 import "./filterButtonListStyle.scss";
 
-export default class FilterButtonListComponent extends React.PureComponent {
+export default class FilterButtonListComponent extends React.PureComponent<IFilterButtonListProps> {
     public render(): JSX.Element {
-        const buttons: string[] = [
-            "All", "Awesome", "Responsive", "Animated",
-        ];
-
         return (
             <div className="filters flex VCenter hCenter">
                 {
-                    buttons.map((text: string, i: number) => (
+                    this.props.filterButtonList.map((text: string, i: number) => (
                         <button key={i}>
                             {text}
                         </button>
@@ -19,5 +17,9 @@ export default class FilterButtonListComponent extends React.PureComponent {
                 }
             </div>
         );
+    }
+
+    public componentDidMount(): void {
+        this.props.getFilterButtons();
     }
 }
