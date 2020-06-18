@@ -1,4 +1,4 @@
-# React-redux-filter-grid
+# React-redux-filter-grid by Hardik Chaudhari
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
